@@ -1,26 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>@ViewData["Title"] - My LinkTree</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>My LinkTree</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #f79800;
+            border-radius: 15px;
+            padding: 30px 50px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: rgb(0, 0, 0);
+            margin-bottom: 10px;
+        }
+
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: block;
+            width: 200px;
+            padding: 15px 20px;
+            margin: 10px auto;
+            background-color: white;
+            color: #0d0d0d;
+            border: 2px solid #0a0a0a;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #080808;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <h1>My LinkTree</h1>
         <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3ac3030e-1608-44c1-a979-1cf79bac3aff/d488ztc-cb4fdee6-ba67-4073-b0ce-f92f69aef55e.jpg/v1/fill/w_900,h_1136,q_75,strp/orange_moon_by_lucyjain-d488ztc.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwib2JqIjpbW3sicGF0aCI6Ii9mLzNhYzMwMzBlLTE2MDgtNDRjMS1hOTc5LTFjZjc5YmFjM2FmZi9kNDg4enRjLWNiNGZkZWU2LWJhNjctNDA3My1iMGNlLWY5MmY2OWFlZjU1ZS5qcGciLCJ3aWR0aCI6Ijw9OTAwIiwiaGVpZ2h0IjoiPD0xMTM2In1dXSwid21rIjp7InBhdGgiOiIvd20vM2FjMzAzMGUtMTYwOC00NGMxLWE5NzktMWNmNzliYWMzYWZmL2x1Y3lqYWluLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.xyy-nLGrvNf3ZtnM5_JQgEDmOkuWrsbYqY_wGhvQSaY" alt="Profile Picture" class="profile-pic">
-        <h2>Tamia Naeem</h2> 
-         
-        <a href="https://www.linkedin.com/in/tamia-naeem" " class="button" target="_blank" >LinkedIn</a>
-        <br>
-        <a href="https://example.com" class="button" target="_blank" >GitHub</a>
-        <br>
-        <a href="mailto:tamianaeem66@gmail.com" class="button" target="_blank" >Gmail</a>
-        <br>
-        <a href="https://www.facebook.com/profile.php?id=100061492127460" class="button" target="_blank" >Facebook</a>
-        <br>
-        <a href="https://www.instagram.com/tamiaa._aa?igsh=MWFjdThtOHd2czFyZg==" class="button" target="_blank" >Instagram</a>
-        <br>
-        <a href="https://www.snapchat.com/add/taliya_mura2023?share_id=UAJWRM114tI&locale=en-U " class="button" target="_blank" >Snapchat</a>
+        <h2>Tamia Naeem</h2>
+        <a href="https://www.linkedin.com/in/tamia-naeem" class="button" target="_blank">LinkedIn</a>
+        <a href="https://example.com" class="button" target="_blank">GitHub</a>
+        <a href="mailto:tamianaeem66@gmail.com" class="button" target="_blank">Gmail</a>
+        <a href="https://www.facebook.com/profile.php?id=100061492127460" class="button" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/tamiaa._aa?igsh=MWFjdThtOHd2czFyZg==" class="button" target="_blank">Instagram</a>
+        <a href="https://www.snapchat.com/add/taliya_mura2023?share_id=UAJWRM114tI&locale=en-U" class="button" target="_blank">Snapchat</a>
     </div>
 </body>
 </html>
